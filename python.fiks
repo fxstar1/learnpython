@@ -1,0 +1,3 @@
+:r!git add python.fiks
+:r!git commit -m "add fiksfile"
+
