@@ -1,3 +1,14 @@
+> git function
+init
 :r!git add python.fiks
 :r!git commit -m "add fiksfile"
+:r!git remote add origin git@github.com:fxstar1/learnpython.git
+:r!git remote -v
+:r!git remote remove origin
+:r!git push -u origin master
+status
+:r!git status
+:r!git log --pretty=oneline 
+:r!git commit -m "init gitfile"
+------------------------------------------------------------
 
