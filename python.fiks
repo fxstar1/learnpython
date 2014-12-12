@@ -11,4 +11,32 @@ status
 :r!git log --pretty=oneline 
 :r!git commit -m "init gitfile"
 ------------------------------------------------------------
+*python基础
+:r!python -c "print(100+200)"
+:r!python -c "print('hello,world')"
+
+*py文件
+:tabedit hello.py
+:r!python hello.py
+
+*py可执行文件
+:r!chmod a+x hello.py
+:r!./hello.py
+
+*input and output
+:wall
+:r!./hello.py
+
+*python basic
+:tabedit basic.py
+:wall
+:r!./basic.py
+
+*python字符编码
+:tabedit encode.py
+:wall
+:r!./encode.py
+
+
+
 
